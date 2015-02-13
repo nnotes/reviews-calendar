@@ -1,0 +1,53 @@
+# STORY-TEMPLATE-VERSION: 4.3.0
+
+* Semi automatic reviews
+
+  - Learners _expect_ to have a schedule of reviews _so that_ they review only
+    the minimum possible, when it's needed.  They minimize the review time vs
+    knowledge mastered.
+
+
+
+** Context
+
+   - Version: 0.0.0
+
+   - Contribution policy: [[http://rfc.zeromq.org/spec:22][C4.1]]
+
+   - Project style guide: [[https://github.com/nomosyn/resources][Coding style]]
+
+   - short name: autorev
+
+   - abbreviation: autorev
+
+   - Licensed under: [[https://www.mozilla.org/MPL/2.0/][MPLv2]]
+
+   - Contributors:
+       - Full name: Pierre-Henry Fröhring, contact: frohring.pierrehenry@gmail.com
+
+
+
+*** Definitions
+
+
+** Init State
+
+   - NNotes has no way to satisfy this expectation.
+
+
+
+** Problem
+
+   - Minimizing learning time is both an expectation from learers/authors and a
+     claim of NNotes.  NNotes cannot avoid this one!
+
+
+
+** End State
+
+   - NNotes offers an optimized semi automatic review calendar to learners:
+       - `automatic` because reviews are automatically scheduled wrt to users data.
+
+       - `semi automatic` because learners can manually add/update/delete
+         scheduled reviews to fit scheduling needs NNotes cannot take into
+         account.
