@@ -1,6 +1,6 @@
 # STORY-TEMPLATE-VERSION: 4.3.0
 
-* Semi automatic reviews
+* Reviews calendar
 
   - Learners _expect_ to have a schedule of reviews _so that_ they review only
     the minimum possible, when it's needed.  They minimize the review time vs
